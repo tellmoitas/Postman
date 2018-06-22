@@ -1,0 +1,19 @@
+{
+  "candidatos": [
+    {
+      "id": 1,
+      "telefone": 987654321,
+      "nome": "Lula"
+    },
+    {
+      "telefone": 987654321,
+      "nome": "Dilma",
+      "id": 2
+    },
+    {
+      "telefone": 987654321,
+      "nome": "Sergio Moro",
+      "id": 3
+    }
+  ]
+}

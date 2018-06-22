@@ -1,0 +1,25 @@
+<html>
+        <head>
+
+            <body>
+            <h1>Usuários</h1>
+            <div id="contents"></div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                $(function (){
+                    $.get('https://jsonplaceholder.typicode.com/users/', function(data){
+                        data.forEach(function(user){
+                            $('#contents').append('<h2>' + user.name + '</h2')
+                            $('#contents').append('<div>' + "Cidade: " + user.address.city + '</div>')
+
+                        })
+                    })
+                })
+                
+            </script>
+            
+                
+            </body>
+            
+
+</html>

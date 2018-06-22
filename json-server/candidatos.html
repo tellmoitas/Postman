@@ -1,0 +1,25 @@
+<html>
+        <head>
+
+            <body>
+            <h1>Candidatos</h1>
+            <div id="contents"></div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                $(function (){
+                    $.get('http://localhost:3000/candidatos', function(data){
+                        data.forEach(function(candidato){
+                            $('#contents').append('<h2>' + candidato.nome + '</h2')
+                            $('#contents').append('<div>' + candidato.telefone + '</div>')
+
+                        })
+                    })
+                })
+                
+            </script>
+            
+                
+            </body>
+            
+
+</html>
