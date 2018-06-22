@@ -11,5 +11,5 @@ A primeira coisa que você precisa saber é que, para acessar os recusros dispon
 
 O TOKEN é obtido apartir desta url: ```https://suap.ifrn.edu.br/api/v2/autenticacao/token/```
 
-![Obtendo o token](/images/token.png)
+![Obtendo o token](/images/token_suap.png)
 
