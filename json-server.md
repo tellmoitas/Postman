@@ -64,17 +64,17 @@ Resposta:
 #### Usando POST
 
 ````http://localhost:3000/candidatos````
-Ao usar o POST é necessário passar os parametros na requisição:
+Ao usar o POST é necessário passar os parametros na requisição, desta forma:
 
 ![Candidatos](/images/post-candidatos.png)
 
-Veja que o arquivo db.json foi alterado
+ou desta forma:
 
 ![Candidatos](/images/post-candidatos.png)
 
-Os parametros podem ser passados também desta forma
+Note que após o envio da requisição,  o arquivo db.json foi alterado
 
-![Candidatos](/images/post-candidatos.png)
+![Candidatos](/images/code-post-candidatos.png)
 
 Verifique os candidados que estão cadastrados
 
@@ -82,8 +82,10 @@ Verifique os candidados que estão cadastrados
 
 #### DELETE
 
-Iremos excluir o candidato que acabamos de inserir
+Iremos excluir o candidato que acabamos de inserir, informando o id do candidato ````/4```` após o endpoint.
+
 ````http://localhost:3000/candidatos/4````
+
 
 Verifique os candidados que estão cadastrados
 
