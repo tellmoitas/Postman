@@ -73,7 +73,7 @@ $ json-server --watch db.json
 
 Ao usarmos o Postman estaremos acessando diretamente o ```db.json```
 
-Fiz um arquivo html, para exibir os dados baixe o arquivo [aqui](/candidatos.html)
+Fiz um arquivo html, para exibir os dados baixe o arquivo [aqui](/json-server/candidatos.html)
 
 #### Usando GET
 Vamos verificar os candidados que estão cadastrados
