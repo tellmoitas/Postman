@@ -41,6 +41,7 @@ Vamos usar uma dos recursos oferecidos pela API através da url: ```https://suap
 * Selecione a opção **Headers**
 * No primeiro campo, digite **Authorization** 
 ### Aqui está o macete
-* No segundo campo, digite JWT antes do TOKEN **(Aprendi este macete, com Felipe Pontes)
+* No segundo campo, digite JWT antes do TOKEN **(Aprendi este macete, com Felipe Pontes)**
 * Clique no botão **SEND**
+
 
