@@ -71,7 +71,9 @@ $ json-server --watch db.json
 
 ## Fazer requisições POST, GET, DELETE
 
-Ao usarmos o Postaman estaremos acessando diretamente o ```db.json```
+Ao usarmos o Postman estaremos acessando diretamente o ```db.json```
+
+Fiz um arquivo html, para exibir os dados baixe o arquivo [aqui](/candidatos.html)
 
 #### Usando GET
 Vamos verificar os candidados que estão cadastrados
