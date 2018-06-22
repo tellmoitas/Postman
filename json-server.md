@@ -54,7 +54,9 @@ $ json-server --watch db.json
 
 #### GET
 ````http://localhost:3000/candidatos````
+
 Resposta:
+
 ![Candidatos](/images/get-candidatos.png)
 
 #### POST
