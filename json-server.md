@@ -64,6 +64,7 @@ Resposta:
 #### Usando POST
 
 ````http://localhost:3000/candidatos````
+
 Ao usar o POST é necessário passar os parametros na requisição, desta forma:
 
 ![Candidatos](/images/post-candidatos.png)
