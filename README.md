@@ -1,2 +1,9 @@
-# Postman
-Como usar o Postman em testes de API
+# Testes de API com Postman
+
+## Testes locais
+
+### [JSON Server](/json-server.md)
+
+## Testes Externos
+
+### [SUAP](/suap-api.md)
