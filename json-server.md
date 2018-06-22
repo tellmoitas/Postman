@@ -1,8 +1,8 @@
-# Postman com Json-server
+# Postman com JSON Server
 
-O Json Server é uma ferramenta bastante interessante em nosso dia a dia para poder testar API de uma forma muito simples
+O **json-server** é uma ferramenta bastante interessante em nosso dia a dia para poder testar API de uma forma muito simples
 
-O Json Server é uma rest API para podermos testar, trazer dados, alterar esses dados, etc. 
+O **json-server** é uma rest API para podermos testar, trazer dados, alterar esses dados, etc. 
 
 Ele permite que a gente faça isso de uma forma muito simples.
 
@@ -10,7 +10,7 @@ Ele permite que a gente faça isso de uma forma muito simples.
 * Criar um arquivo db.json
 * Instalar o json-server
 * Iniciar o json-server
-* Fazer requisições POST, GET, DELETE
+* Fazer requisições POST, GET, DELETE, ...
 
 ### Antes da Instalação
 
@@ -52,16 +52,41 @@ $ json-server --watch db.json
 
 ### Usando o Postman e salvando diretamente em ```db.json```
 
-#### GET
+#### Usando GET
+Vamos verificar os candidados que estão cadastrados
+
 ````http://localhost:3000/candidatos````
 
 Resposta:
 
 ![Candidatos](/images/get-candidatos.png)
 
-#### POST
+#### Usando POST
+
+````http://localhost:3000/candidatos````
+Ao usar o POST é necessário passar os parametros na requisição:
+
+![Candidatos](/images/post-candidatos.png)
+
+Veja que o arquivo db.json foi alterado
+
+![Candidatos](/images/post-candidatos.png)
+
+Os parametros podem ser passados também desta forma
+
+![Candidatos](/images/post-candidatos.png)
+
+Verifique os candidados que estão cadastrados
+
 ````http://localhost:3000/candidatos````
 
 #### DELETE
+
+Iremos excluir o candidato que acabamos de inserir
+````http://localhost:3000/candidatos/4````
+
+Verifique os candidados que estão cadastrados
+
 ````http://localhost:3000/candidatos````
+
 
