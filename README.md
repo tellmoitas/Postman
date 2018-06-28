@@ -1,16 +1,15 @@
-# Testes de API com Postman
+# Curso de Postman - Testes de API REST / RESTful
 
-## Testes locais
-
-### [JSON Server](/json-server.md)
-
-## Testes Externos
-
-### [SUAP](/suap-api.md)
-
-## Curso de Postman
 
 ### Introdução e primeiros passos
+
+#### Testes locais
+
+[JSON Server](/json-server.md)
+
+#### Testes Externos
+
+[SUAP](/suap-api.md)
 
 ### Criando com solicitações de API
 
